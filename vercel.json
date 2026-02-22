@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    {
+      "source": "/googlea336bc46ba890caa.html",
+      "destination": "/googlea336bc46ba890caa.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    }
+  ]
+}
