@@ -9,6 +9,49 @@ const nameStyles = [
   { title: "Royal & Noble", emoji: "👑", desc: "Regal names fit for kings and queens", examples: "Victoria, Frederick, Adelaide, Edmund" },
 ];
 
+const cultureStyles = [
+  { title: "Japanese Names", emoji: "🇯🇵", desc: "Elegant names with poetic kanji meanings", href: "/japanese-names" },
+  { title: "Korean Names", emoji: "🇰🇷", desc: "Beautiful names with rich cultural heritage", href: "/korean-names" },
+  { title: "Chinese Names", emoji: "🇨🇳", desc: "Meaningful names rooted in ancient tradition", href: "/chinese-names" },
+  { title: "Indian Names", emoji: "🇮🇳", desc: "Melodic names from Sanskrit and regional traditions", href: "/indian-names" },
+  { title: "Arabic Names", emoji: "🕌", desc: "Lyrical names with deep spiritual significance", href: "/arabic-names" },
+  { title: "Spanish Names", emoji: "🇪🇸", desc: "Passionate names from Hispanic heritage", href: "/spanish-names" },
+  { title: "African Names", emoji: "🌍", desc: "Vibrant names celebrating African heritage", href: "/african-names" },
+  { title: "Celtic Names", emoji: "☘️", desc: "Mystical names from Irish and Scottish tradition", href: "/celtic-names" },
+  { title: "Hawaiian Names", emoji: "🌺", desc: "Tropical names celebrating island spirit", href: "/hawaiian-names" },
+  { title: "Greek Names", emoji: "🏛️", desc: "Timeless names from ancient mythology", href: "/greek-names" },
+];
+
+const cultureNavLinks = [
+  { label: "Biblical", href: "/biblical-names" },
+  { label: "Japanese", href: "/japanese-names" },
+  { label: "Korean", href: "/korean-names" },
+  { label: "Indian", href: "/indian-names" },
+  { label: "Chinese", href: "/chinese-names" },
+  { label: "Arabic", href: "/arabic-names" },
+  { label: "Spanish", href: "/spanish-names" },
+  { label: "African", href: "/african-names" },
+  { label: "Celtic", href: "/celtic-names" },
+  { label: "Hawaiian", href: "/hawaiian-names" },
+  { label: "Greek", href: "/greek-names" },
+  { label: "Royal", href: "/royal-names" },
+];
+
+const browseCultures = [
+  { label: "Biblical Names", emoji: "📖", href: "/biblical-names" },
+  { label: "Japanese Names", emoji: "🇯🇵", href: "/japanese-names" },
+  { label: "Korean Names", emoji: "🇰🇷", href: "/korean-names" },
+  { label: "Indian Names", emoji: "🇮🇳", href: "/indian-names" },
+  { label: "Chinese Names", emoji: "🇨🇳", href: "/chinese-names" },
+  { label: "Arabic Names", emoji: "🕌", href: "/arabic-names" },
+  { label: "Spanish Names", emoji: "🇪🇸", href: "/spanish-names" },
+  { label: "African Names", emoji: "🌍", href: "/african-names" },
+  { label: "Celtic Names", emoji: "☘️", href: "/celtic-names" },
+  { label: "Hawaiian Names", emoji: "🌺", href: "/hawaiian-names" },
+  { label: "Greek Names", emoji: "🏛️", href: "/greek-names" },
+  { label: "Royal Names", emoji: "👑", href: "/royal-names" },
+];
+
 const faqs = [
   {
     q: "How does the AI baby name generator work?",
@@ -45,19 +88,29 @@ export default function Home() {
     <main className="min-h-screen">
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-purple-100">
-        <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2">
-            <span className="text-2xl">👶</span>
-            <span className="text-xl font-bold" style={{background:"linear-gradient(135deg,#9333ea,#6366f1)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>BabyNamePick</span>
-          </a>
-          <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
-            <a href="/" className="text-purple-600 font-bold">Home</a>
-            <a href="/boy-names" className="hover:text-purple-600 transition-colors">Boy Names</a>
-            <a href="/girl-names" className="hover:text-purple-600 transition-colors">Girl Names</a>
-            <a href="/unique-names" className="hover:text-purple-600 transition-colors">Unique Names</a>
-            <a href="#tips" className="hover:text-purple-600 transition-colors">Naming Tips</a>
-            <a href="#faq" className="hover:text-purple-600 transition-colors">FAQ</a>
-          </nav>
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="py-3 flex items-center justify-between">
+            <a href="/" className="flex items-center gap-2">
+              <span className="text-2xl">👶</span>
+              <span className="text-xl font-bold" style={{background:"linear-gradient(135deg,#9333ea,#6366f1)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>BabyNamePick</span>
+            </a>
+            <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
+              <a href="/" className="text-purple-600 font-bold">Home</a>
+              <a href="/boy-names" className="hover:text-purple-600 transition-colors">Boy Names</a>
+              <a href="/girl-names" className="hover:text-purple-600 transition-colors">Girl Names</a>
+              <a href="/unique-names" className="hover:text-purple-600 transition-colors">Unique Names</a>
+              <a href="#tips" className="hover:text-purple-600 transition-colors">Naming Tips</a>
+              <a href="#faq" className="hover:text-purple-600 transition-colors">FAQ</a>
+            </nav>
+          </div>
+          <div className="hidden md:flex items-center gap-3 pb-2 border-t border-purple-50 pt-2 flex-wrap">
+            <span className="text-xs font-semibold text-purple-400 shrink-0">By Culture:</span>
+            {cultureNavLinks.map((link) => (
+              <a key={link.href} href={link.href} className="text-xs font-medium text-gray-500 hover:text-purple-600 transition-colors">
+                {link.label}
+              </a>
+            ))}
+          </div>
         </div>
       </header>
 
@@ -147,6 +200,18 @@ export default function Home() {
               </div>
             ))}
           </div>
+
+          <h3 className="text-2xl font-bold text-center mt-14 mb-3">Explore by Culture</h3>
+          <p className="text-gray-500 text-center mb-8">Discover names from cultures around the world</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {cultureStyles.map((s, i) => (
+              <a key={i} href={s.href} className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md hover:border-purple-200 transition-all group">
+                <div className="text-3xl mb-3">{s.emoji}</div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2 group-hover:text-purple-600 transition-colors">{s.title}</h3>
+                <p className="text-sm text-gray-500">{s.desc}</p>
+              </a>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -207,8 +272,28 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Browse by Culture */}
+      <section className="py-16 px-4" id="browse-culture">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-3">Browse Names by Culture</h2>
+          <p className="text-gray-500 text-center mb-10">Explore our dedicated pages for names from cultures around the world</p>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {browseCultures.map((culture) => (
+              <a
+                key={culture.href}
+                href={culture.href}
+                className="flex items-center gap-3 p-4 rounded-xl bg-purple-50 border border-purple-100 hover:bg-purple-100 hover:border-purple-300 transition-colors group"
+              >
+                <span className="text-2xl">{culture.emoji}</span>
+                <span className="font-semibold text-gray-700 group-hover:text-purple-700 transition-colors text-sm">{culture.label}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
-      <section className="py-16 px-4" id="faq">
+      <section className="py-16 px-4 bg-white" id="faq">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-10">Frequently Asked Questions</h2>
           <div className="space-y-4">
