@@ -8,11 +8,11 @@ export const metadata: Metadata = {
 };
 
 const faqs = [
-  { q: "What are popular African baby names?", a: "Popular African names include Aarav (peaceful), Vihaan (dawn), Ananya (unique), and Aanya (grace) for modern choices, while Arjun, Krishna, Lakshmi, and Saraswati remain timeless classics rooted in mythology." },
-  { q: "How are African baby names typically chosen?", a: "African families often consider the baby's birth nakshatra (lunar mansion), the first letter suggested by astrology, family traditions, religious significance, and the name's meaning in Sanskrit or regional languages." },
-  { q: "What is the significance of Sanskrit names?", a: "Sanskrit is considered the 'language of the gods' in Hindu tradition. Sanskrit names carry deep philosophical meanings — for example, 'Advait' means 'unique/non-dual,' reflecting the Advaita philosophy of oneness." },
-  { q: "Can I use an African name if I'm not African?", a: "Absolutely! Many African names are beautiful and meaningful choices for any family. Names like Maya (illusion/love), Kiran (ray of light), and Arya (noble) have cross-cultural appeal and are easy to pronounce in English." },
-  { q: "What are some unique African names for girls?", a: "Unique African girl names include Ira (earth/wind), Myra (beloved), Tara (star), Zara (princess), Nisha (night), and Priya (beloved). Many have beautiful meanings rooted in nature, virtues, or divinity." },
+  { q: "How are babies named in African cultures?", a: "African naming traditions vary widely but often involve ceremonies. In Yoruba culture, a naming ceremony (Isomoloruko) is held on the 7th or 9th day. Names often reflect circumstances of birth, family hopes, or spiritual beliefs. Many cultures believe a name shapes a child's destiny." },
+  { q: "What are Akan day-names?", a: "The Akan people of Ghana name children based on their birth day. Boys born on Friday are Kofi, Saturday are Kwame, Monday are Kwadwo. Girls born on Friday are Afua, Monday are Adjoa. Former UN Secretary-General Kofi Annan was born on a Friday." },
+  { q: "What are popular Swahili baby names?", a: "Popular Swahili names include Amani (peace), Zuri (beautiful), Imani (faith), Jabari (brave), Nia (purpose), and Baraka (blessing). Swahili names are used across East Africa and carry beautiful meanings rooted in everyday virtues." },
+  { q: "Do African names always have meanings?", a: "Yes, virtually all African names carry deep meaning. Unlike many Western names, African names are chosen specifically for their meaning — reflecting hopes, circumstances, or spiritual beliefs. A name like Chukwuemeka (Igbo) means 'God has done great things.'" },
+  { q: "Can non-African families use African names?", a: "Many African names have become globally beloved — Amara (grace), Zara (flower), Kai (used in many cultures), and Nia (purpose). These names are beautiful choices for any family who appreciates their meaning and heritage." },
 ];
 
 export default function AfricanNames() {
@@ -37,7 +37,7 @@ export default function AfricanNames() {
       <section className="py-16 px-4" style={{background:"linear-gradient(135deg,#ecfdf5,#d1fae5,#f0fdf4)"}}>
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-6"><span style={{background:"linear-gradient(135deg,#059669,#10b981)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>African Baby Names</span> Generator</h1>
-          <p className="text-lg text-gray-600 mb-8">Explore the rich tradition of African naming. From Sanskrit classics to modern favorites, find meaningful names rooted in thousands of years of culture.</p>
+          <p className="text-lg text-gray-600 mb-8">Explore the rich naming traditions of Africa — from Yoruba ceremonies to Swahili meanings, find names that carry the strength and beauty of an entire continent.</p>
         </div>
       </section>
 
@@ -45,16 +45,16 @@ export default function AfricanNames() {
 
       <section className="py-16 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose prose-lg">
-          <h2 className="text-3xl font-bold mb-6">The Rich Tradition of African Baby Names</h2>
-          <p>India&apos;s naming traditions are among the most diverse and meaningful in the world. With over 22 official languages and thousands of years of cultural history, African names draw from Sanskrit, Hindi, Tamil, Bengali, Marathi, and many other linguistic traditions. Each name is a story — of gods and goddesses, natural beauty, virtues, and aspirations.</p>
-          <h3 className="text-xl font-bold mt-8 mb-4">Sanskrit-Origin Names</h3>
-          <p>Sanskrit, the ancient language of India, provides the foundation for many African names. <strong>Aarav</strong> means &quot;peaceful and wise,&quot; <strong>Advait</strong> means &quot;unique, non-dual,&quot; <strong>Vihaan</strong> means &quot;dawn of a new era.&quot; For girls, <strong>Ananya</strong> means &quot;one who has no equal,&quot; <strong>Aadhya</strong> means &quot;the first, the beginning,&quot; and <strong>Kavya</strong> means &quot;poetry.&quot; These names carry deep philosophical and spiritual significance.</p>
-          <h3 className="text-xl font-bold mt-8 mb-4">Mythology-Inspired Names</h3>
-          <p>Hindu mythology offers a treasure trove of powerful names. <strong>Arjun</strong> (the legendary archer), <strong>Krishna</strong> (the divine protector), <strong>Lakshmi</strong> (goddess of wealth), and <strong>Saraswati</strong> (goddess of knowledge) connect children to epic stories of courage, wisdom, and grace.</p>
-          <h3 className="text-xl font-bold mt-8 mb-4">Regional Variations</h3>
-          <p>India&apos;s linguistic diversity means names vary beautifully by region. South African names like <strong>Aishwarya</strong> and <strong>Karthik</strong>, Bengali names like <strong>Rishika</strong> and <strong>Aniket</strong>, and Punjabi names like <strong>Harpreet</strong> and <strong>Simran</strong> each carry the flavor of their cultural origins.</p>
-          <h3 className="text-xl font-bold mt-8 mb-4">Modern African Names</h3>
-          <p>Today&apos;s African parents often choose names that work well internationally while retaining cultural meaning. Names like <strong>Kiran</strong> (ray of light), <strong>Maya</strong> (illusion/love), <strong>Arya</strong> (noble), <strong>Vivaan</strong> (full of life), and <strong>Zara</strong> (princess) bridge cultures beautifully.</p>
+          <h2 className="text-3xl font-bold mb-6">The Rich Heritage of African Baby Names</h2>
+          <p>Africa, with its 54 countries and over 2,000 languages, offers perhaps the most diverse naming traditions on Earth. African names are never random — each one tells a story of family, faith, hope, and heritage. In many African cultures, naming a child is a sacred act that shapes their destiny.</p>
+          <h3 className="text-xl font-bold mt-8 mb-4">Yoruba Naming Traditions (Nigeria)</h3>
+          <p>The Yoruba people hold the <em>Isomoloruko</em> (naming ceremony) on the 7th or 9th day after birth. Names like <strong>Oluwaseun</strong> (&quot;God has done well&quot;), <strong>Ayodele</strong> (&quot;joy has come home&quot;), and <strong>Adebayo</strong> (&quot;the crown meets joy&quot;) reflect gratitude and aspiration. Many Yoruba names begin with &quot;Olu-&quot; (God) or &quot;Ade-&quot; (crown).</p>
+          <h3 className="text-xl font-bold mt-8 mb-4">Swahili Names (East Africa)</h3>
+          <p>Swahili, spoken across Kenya, Tanzania, and beyond, offers melodic names with clear meanings. <strong>Amani</strong> (peace), <strong>Zuri</strong> (beautiful), <strong>Jabari</strong> (brave), <strong>Imani</strong> (faith), and <strong>Baraka</strong> (blessing) are beloved across East Africa. Swahili names blend Bantu and Arabic influences.</p>
+          <h3 className="text-xl font-bold mt-8 mb-4">Akan Day-Names (Ghana)</h3>
+          <p>The Akan tradition of naming children after their birth day is one of Africa&apos;s most famous customs. <strong>Kwame</strong> (Saturday boy), <strong>Kofi</strong> (Friday boy), <strong>Ama</strong> (Saturday girl), and <strong>Afua</strong> (Friday girl). This system connects each child to the spiritual energy of their birth day.</p>
+          <h3 className="text-xl font-bold mt-8 mb-4">Ubuntu Philosophy in Naming</h3>
+          <p>The Southern African concept of <em>Ubuntu</em> (&quot;I am because we are&quot;) influences naming deeply. Names often reflect community bonds: <strong>Thandiwe</strong> (&quot;beloved&quot; in Zulu), <strong>Sipho</strong> (&quot;gift&quot; in Xhosa), and <strong>Tendai</strong> (&quot;be thankful&quot; in Shona) express the interconnection between individual and community.</p>
         </div>
       </section>
 
@@ -75,14 +75,7 @@ export default function AfricanNames() {
       <footer className="bg-gray-900 text-gray-400 py-8 px-4 text-center text-sm">
         <p>© 2026 BabyNamePick.com — Free AI Baby Name Generator</p>
         <div className="mt-3 flex justify-center gap-4 flex-wrap">
-          <a href="/" className="hover:text-white">Home</a>
-          <a href="/boy-names" className="hover:text-white">Boy Names</a>
-          <a href="/girl-names" className="hover:text-white">Girl Names</a>
-          <a href="/unique-names" className="hover:text-white">Unique Names</a>
-          <a href="/biblical-names" className="hover:text-white">Biblical</a>
-          <a href="/japanese-names" className="hover:text-white">Japanese</a>
-          <a href="/korean-names" className="hover:text-white">Korean</a>
-          <a href="/african-names" className="hover:text-white">African</a>
+          <a href="/" className="hover:text-white">Home</a><a href="/boy-names" className="hover:text-white">Boy Names</a><a href="/girl-names" className="hover:text-white">Girl Names</a><a href="/unique-names" className="hover:text-white">Unique Names</a><a href="/biblical-names" className="hover:text-white">Biblical</a><a href="/japanese-names" className="hover:text-white">Japanese</a><a href="/korean-names" className="hover:text-white">Korean</a><a href="/indian-names" className="hover:text-white">Indian</a><a href="/chinese-names" className="hover:text-white">Chinese</a><a href="/arabic-names" className="hover:text-white">Arabic</a><a href="/spanish-names" className="hover:text-white">Spanish</a><a href="/african-names" className="hover:text-white">African</a><a href="/celtic-names" className="hover:text-white">Celtic</a><a href="/hawaiian-names" className="hover:text-white">Hawaiian</a><a href="/greek-names" className="hover:text-white">Greek</a><a href="/royal-names" className="hover:text-white">Royal</a>
         </div>
       </footer>
 

@@ -3,16 +3,16 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Hawaiian Baby Names Generator - Beautiful Island Names | BabyNamePick",
-  description: "Discover beautiful Hawaiian baby names inspired by nature, ocean, and aloha spirit with deep Polynesian meanings and traditions.",
+  description: "Discover beautiful Hawaiian baby names inspired by nature, ocean, and aloha spirit with deep Polynesian meanings and island traditions.",
   alternates: { canonical: "https://babynamepick.com/hawaiian-names" },
 };
 
 const faqs = [
-  { q: "What are popular Hawaiian baby names?", a: "Popular Hawaiian names include Aarav (peaceful), Vihaan (dawn), Ananya (unique), and Aanya (grace) for modern choices, while Arjun, Krishna, Lakshmi, and Saraswati remain timeless classics rooted in mythology." },
-  { q: "How are Hawaiian baby names typically chosen?", a: "Hawaiian families often consider the baby's birth nakshatra (lunar mansion), the first letter suggested by astrology, family traditions, religious significance, and the name's meaning in Sanskrit or regional languages." },
-  { q: "What is the significance of Sanskrit names?", a: "Sanskrit is considered the 'language of the gods' in Hindu tradition. Sanskrit names carry deep philosophical meanings — for example, 'Advait' means 'unique/non-dual,' reflecting the Advaita philosophy of oneness." },
-  { q: "Can I use an Hawaiian name if I'm not Hawaiian?", a: "Absolutely! Many Hawaiian names are beautiful and meaningful choices for any family. Names like Maya (illusion/love), Kiran (ray of light), and Arya (noble) have cross-cultural appeal and are easy to pronounce in English." },
-  { q: "What are some unique Hawaiian names for girls?", a: "Unique Hawaiian girl names include Ira (earth/wind), Myra (beloved), Tara (star), Zara (princess), Nisha (night), and Priya (beloved). Many have beautiful meanings rooted in nature, virtues, or divinity." },
+  { q: "What makes Hawaiian names special?", a: "Hawaiian names are deeply connected to nature and spirituality. Every name carries a 'hidden meaning' (kaona) — often poetic and multilayered. Names frequently reference the ocean, mountains, rain, flowers, and sky, reflecting Hawaii's breathtaking landscape." },
+  { q: "What are popular Hawaiian baby names?", a: "Popular names include Kai (sea), Leilani (heavenly flower), Koa (brave/warrior), Malia (calm, peaceful), Keanu (cool breeze), Moana (ocean), Lani (sky/heaven), and Nalu (wave). Many have become beloved worldwide." },
+  { q: "Do Hawaiian names have gender rules?", a: "Many Hawaiian names are gender-neutral — Kai, Lani, and Noa work for both boys and girls. This reflects the Hawaiian cultural view that qualities like bravery, beauty, and spiritual connection aren't limited by gender." },
+  { q: "How are Hawaiian babies traditionally named?", a: "Traditionally, names come through dreams, visions, or signs from ancestors. The practice of 'inoa po' (night name) involves receiving a name through a dream. Elders and spiritual leaders may also be consulted. The name is seen as a spiritual gift." },
+  { q: "Can non-Hawaiian families use Hawaiian names?", a: "Hawaiian names like Kai, Leilani, and Malia have been warmly embraced globally. If choosing a Hawaiian name, learn its correct pronunciation and meaning as a sign of respect for the culture. Many Hawaiians appreciate when others honor their naming traditions thoughtfully." },
 ];
 
 export default function HawaiianNames() {
@@ -21,7 +21,7 @@ export default function HawaiianNames() {
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-cyan-100">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2">
-            <span className="text-2xl">👶</span>
+            <span className="text-2xl">🌺</span>
             <span className="text-xl font-bold" style={{background:"linear-gradient(135deg,#0891b2,#06b6d4)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>BabyNamePick</span>
           </a>
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
@@ -36,8 +36,8 @@ export default function HawaiianNames() {
 
       <section className="py-16 px-4" style={{background:"linear-gradient(135deg,#ecfeff,#cffafe,#f0fdfa)"}}>
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-6"><span style={{background:"linear-gradient(135deg,#0891b2,#06b6d4)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>Hawaiian Baby Names</span> Generator</h1>
-          <p className="text-lg text-gray-600 mb-8">Explore the rich tradition of Hawaiian naming. From Sanskrit classics to modern favorites, find meaningful names rooted in thousands of years of culture.</p>
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-6">🌺 <span style={{background:"linear-gradient(135deg,#0891b2,#06b6d4)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>Hawaiian Baby Names</span> Generator</h1>
+          <p className="text-lg text-gray-600 mb-8">From the turquoise waters of Waikiki to the misty peaks of Mauna Kea, discover names that carry the spirit of aloha — love, peace, and the beauty of the islands.</p>
         </div>
       </section>
 
@@ -45,16 +45,16 @@ export default function HawaiianNames() {
 
       <section className="py-16 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose prose-lg">
-          <h2 className="text-3xl font-bold mb-6">The Rich Tradition of Hawaiian Baby Names</h2>
-          <p>India&apos;s naming traditions are among the most diverse and meaningful in the world. With over 22 official languages and thousands of years of cultural history, Hawaiian names draw from Sanskrit, Hindi, Tamil, Bengali, Marathi, and many other linguistic traditions. Each name is a story — of gods and goddesses, natural beauty, virtues, and aspirations.</p>
-          <h3 className="text-xl font-bold mt-8 mb-4">Sanskrit-Origin Names</h3>
-          <p>Sanskrit, the ancient language of India, provides the foundation for many Hawaiian names. <strong>Aarav</strong> means &quot;peaceful and wise,&quot; <strong>Advait</strong> means &quot;unique, non-dual,&quot; <strong>Vihaan</strong> means &quot;dawn of a new era.&quot; For girls, <strong>Ananya</strong> means &quot;one who has no equal,&quot; <strong>Aadhya</strong> means &quot;the first, the beginning,&quot; and <strong>Kavya</strong> means &quot;poetry.&quot; These names carry deep philosophical and spiritual significance.</p>
-          <h3 className="text-xl font-bold mt-8 mb-4">Mythology-Inspired Names</h3>
-          <p>Hindu mythology offers a treasure trove of powerful names. <strong>Arjun</strong> (the legendary archer), <strong>Krishna</strong> (the divine protector), <strong>Lakshmi</strong> (goddess of wealth), and <strong>Saraswati</strong> (goddess of knowledge) connect children to epic stories of courage, wisdom, and grace.</p>
-          <h3 className="text-xl font-bold mt-8 mb-4">Regional Variations</h3>
-          <p>India&apos;s linguistic diversity means names vary beautifully by region. South Hawaiian names like <strong>Aishwarya</strong> and <strong>Karthik</strong>, Bengali names like <strong>Rishika</strong> and <strong>Aniket</strong>, and Punjabi names like <strong>Harpreet</strong> and <strong>Simran</strong> each carry the flavor of their cultural origins.</p>
-          <h3 className="text-xl font-bold mt-8 mb-4">Modern Hawaiian Names</h3>
-          <p>Today&apos;s Hawaiian parents often choose names that work well internationally while retaining cultural meaning. Names like <strong>Kiran</strong> (ray of light), <strong>Maya</strong> (illusion/love), <strong>Arya</strong> (noble), <strong>Vivaan</strong> (full of life), and <strong>Zara</strong> (princess) bridge cultures beautifully.</p>
+          <h2 className="text-3xl font-bold mb-6">Beautiful Names from the Hawaiian Islands</h2>
+          <p>Hawaiian names are poetry in motion — each one a window into the islands&apos; stunning natural beauty and deep spiritual traditions. The Hawaiian language has only 13 letters, yet creates names of extraordinary beauty and meaning. In Hawaiian culture, a name (<em>inoa</em>) is a sacred gift that carries <em>mana</em> (spiritual power).</p>
+          <h3 className="text-xl font-bold mt-8 mb-4">Ocean-Inspired Names</h3>
+          <p>The sea is central to Hawaiian life, and its names reflect this connection. <strong>Kai</strong> (&quot;sea&quot;) has become one of the world&apos;s most popular names. <strong>Moana</strong> (&quot;ocean&quot;) gained fame through Disney but has been beloved in Hawaii for centuries. <strong>Nalu</strong> (&quot;wave&quot;), <strong>Moku</strong> (&quot;island&quot;), and <strong>Lana</strong> (&quot;calm waters&quot;) connect children to the Pacific.</p>
+          <h3 className="text-xl font-bold mt-8 mb-4">Nature and Sky Names</h3>
+          <p><strong>Leilani</strong> (&quot;heavenly flower&quot;) is perhaps the most quintessential Hawaiian name. <strong>Lani</strong> (&quot;sky, heaven&quot;), <strong>Mahina</strong> (&quot;moon&quot;), <strong>Hoku</strong> (&quot;star&quot;), and <strong>Pua</strong> (&quot;flower&quot;) draw from Hawaii&apos;s spectacular skies and lush gardens. <strong>Keanu</strong> — made famous by the actor — means &quot;cool breeze over the mountains.&quot;</p>
+          <h3 className="text-xl font-bold mt-8 mb-4">Strength and Spirit Names</h3>
+          <p><strong>Koa</strong> (&quot;warrior, brave&quot;) is both a name and Hawaii&apos;s most sacred tree. <strong>Makoa</strong> (&quot;fearless&quot;), <strong>Ikaika</strong> (&quot;strong&quot;), <strong>Kaimana</strong> (&quot;diamond, power of the ocean&quot;), and <strong>Malia</strong> (&quot;calm, peaceful&quot;) — Barack Obama&apos;s daughter&apos;s name — represent the Hawaiian balance of strength and serenity.</p>
+          <h3 className="text-xl font-bold mt-8 mb-4">The Aloha Spirit in Naming</h3>
+          <p>The concept of <em>aloha</em> — love, compassion, and mutual respect — infuses Hawaiian naming. Names are chosen to inspire qualities parents wish for their children: <strong>Aloha</strong> itself (love), <strong>Mahalo</strong> (gratitude), <strong>Ohana</strong> (family), and <strong>Mana</strong> (spiritual power) represent the deepest values of Hawaiian culture.</p>
         </div>
       </section>
 
@@ -75,14 +75,7 @@ export default function HawaiianNames() {
       <footer className="bg-gray-900 text-gray-400 py-8 px-4 text-center text-sm">
         <p>© 2026 BabyNamePick.com — Free AI Baby Name Generator</p>
         <div className="mt-3 flex justify-center gap-4 flex-wrap">
-          <a href="/" className="hover:text-white">Home</a>
-          <a href="/boy-names" className="hover:text-white">Boy Names</a>
-          <a href="/girl-names" className="hover:text-white">Girl Names</a>
-          <a href="/unique-names" className="hover:text-white">Unique Names</a>
-          <a href="/biblical-names" className="hover:text-white">Biblical</a>
-          <a href="/japanese-names" className="hover:text-white">Japanese</a>
-          <a href="/korean-names" className="hover:text-white">Korean</a>
-          <a href="/hawaiian-names" className="hover:text-white">Hawaiian</a>
+          <a href="/" className="hover:text-white">Home</a><a href="/boy-names" className="hover:text-white">Boy Names</a><a href="/girl-names" className="hover:text-white">Girl Names</a><a href="/unique-names" className="hover:text-white">Unique Names</a><a href="/biblical-names" className="hover:text-white">Biblical</a><a href="/japanese-names" className="hover:text-white">Japanese</a><a href="/korean-names" className="hover:text-white">Korean</a><a href="/indian-names" className="hover:text-white">Indian</a><a href="/chinese-names" className="hover:text-white">Chinese</a><a href="/arabic-names" className="hover:text-white">Arabic</a><a href="/spanish-names" className="hover:text-white">Spanish</a><a href="/african-names" className="hover:text-white">African</a><a href="/celtic-names" className="hover:text-white">Celtic</a><a href="/hawaiian-names" className="hover:text-white">Hawaiian</a><a href="/greek-names" className="hover:text-white">Greek</a><a href="/royal-names" className="hover:text-white">Royal</a>
         </div>
       </footer>
 

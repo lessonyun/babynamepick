@@ -8,11 +8,11 @@ export const metadata: Metadata = {
 };
 
 const faqs = [
-  { q: "What are popular Greek baby names?", a: "Popular Greek names include Aarav (peaceful), Vihaan (dawn), Ananya (unique), and Aanya (grace) for modern choices, while Arjun, Krishna, Lakshmi, and Saraswati remain timeless classics rooted in mythology." },
-  { q: "How are Greek baby names typically chosen?", a: "Greek families often consider the baby's birth nakshatra (lunar mansion), the first letter suggested by astrology, family traditions, religious significance, and the name's meaning in Sanskrit or regional languages." },
-  { q: "What is the significance of Sanskrit names?", a: "Sanskrit is considered the 'language of the gods' in Hindu tradition. Sanskrit names carry deep philosophical meanings — for example, 'Advait' means 'unique/non-dual,' reflecting the Advaita philosophy of oneness." },
-  { q: "Can I use an Greek name if I'm not Greek?", a: "Absolutely! Many Greek names are beautiful and meaningful choices for any family. Names like Maya (illusion/love), Kiran (ray of light), and Arya (noble) have cross-cultural appeal and are easy to pronounce in English." },
-  { q: "What are some unique Greek names for girls?", a: "Unique Greek girl names include Ira (earth/wind), Myra (beloved), Tara (star), Zara (princess), Nisha (night), and Priya (beloved). Many have beautiful meanings rooted in nature, virtues, or divinity." },
+  { q: "What are the best Greek mythology names for babies?", a: "Popular mythology names include Alexander (defender of the people), Athena (goddess of wisdom), Apollo (god of light), Helena (bright, shining), Artemis (goddess of the hunt), and Penelope (weaver). These names carry millennia of heroic stories." },
+  { q: "Are Greek names hard to pronounce?", a: "Most Greek names used internationally are quite easy: Sophia, Alexander, Nicholas, Helena, Theodore, and Daphne. More traditional names like Konstantinos or Evangelia may be shortened to Kostas or Eva in everyday use." },
+  { q: "What is the Greek name day tradition?", a: "In Greece, name days (onomastiki eorti) are often celebrated more than birthdays. Each day of the year is dedicated to a saint, and everyone sharing that saint's name celebrates together. It's a beloved national tradition." },
+  { q: "What Greek names are popular worldwide?", a: "Many of the world's most popular names are Greek: Alexander, Sophia, Nicholas, Catherine, George, Helen, Theodore, and Philip. These names have been adopted across cultures for centuries and remain perennial favorites." },
+  { q: "Do modern Greeks still use ancient names?", a: "Yes! Names like Dimitris, Nikos, Maria, and Eleni are everyday names in modern Greece. Ancient names like Aristotle, Plato, and Homer are rarer but still used. Many families name children after grandparents, preserving names across generations." },
 ];
 
 export default function GreekNames() {
@@ -21,7 +21,7 @@ export default function GreekNames() {
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-blue-100">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2">
-            <span className="text-2xl">👶</span>
+            <span className="text-2xl">🏛️</span>
             <span className="text-xl font-bold" style={{background:"linear-gradient(135deg,#1d4ed8,#3b82f6)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>BabyNamePick</span>
           </a>
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
@@ -36,8 +36,8 @@ export default function GreekNames() {
 
       <section className="py-16 px-4" style={{background:"linear-gradient(135deg,#eff6ff,#dbeafe,#f0f9ff)"}}>
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-6"><span style={{background:"linear-gradient(135deg,#1d4ed8,#3b82f6)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>Greek Baby Names</span> Generator</h1>
-          <p className="text-lg text-gray-600 mb-8">Explore the rich tradition of Greek naming. From Sanskrit classics to modern favorites, find meaningful names rooted in thousands of years of culture.</p>
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-6">🏛️ <span style={{background:"linear-gradient(135deg,#1d4ed8,#3b82f6)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>Greek Baby Names</span> Generator</h1>
+          <p className="text-lg text-gray-600 mb-8">From the temples of Athens to the shores of Santorini, discover names that have echoed through 3,000 years of Western civilization — names of gods, heroes, and philosophers.</p>
         </div>
       </section>
 
@@ -45,16 +45,16 @@ export default function GreekNames() {
 
       <section className="py-16 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose prose-lg">
-          <h2 className="text-3xl font-bold mb-6">The Rich Tradition of Greek Baby Names</h2>
-          <p>India&apos;s naming traditions are among the most diverse and meaningful in the world. With over 22 official languages and thousands of years of cultural history, Greek names draw from Sanskrit, Hindi, Tamil, Bengali, Marathi, and many other linguistic traditions. Each name is a story — of gods and goddesses, natural beauty, virtues, and aspirations.</p>
-          <h3 className="text-xl font-bold mt-8 mb-4">Sanskrit-Origin Names</h3>
-          <p>Sanskrit, the ancient language of India, provides the foundation for many Greek names. <strong>Aarav</strong> means &quot;peaceful and wise,&quot; <strong>Advait</strong> means &quot;unique, non-dual,&quot; <strong>Vihaan</strong> means &quot;dawn of a new era.&quot; For girls, <strong>Ananya</strong> means &quot;one who has no equal,&quot; <strong>Aadhya</strong> means &quot;the first, the beginning,&quot; and <strong>Kavya</strong> means &quot;poetry.&quot; These names carry deep philosophical and spiritual significance.</p>
-          <h3 className="text-xl font-bold mt-8 mb-4">Mythology-Inspired Names</h3>
-          <p>Hindu mythology offers a treasure trove of powerful names. <strong>Arjun</strong> (the legendary archer), <strong>Krishna</strong> (the divine protector), <strong>Lakshmi</strong> (goddess of wealth), and <strong>Saraswati</strong> (goddess of knowledge) connect children to epic stories of courage, wisdom, and grace.</p>
-          <h3 className="text-xl font-bold mt-8 mb-4">Regional Variations</h3>
-          <p>India&apos;s linguistic diversity means names vary beautifully by region. South Greek names like <strong>Aishwarya</strong> and <strong>Karthik</strong>, Bengali names like <strong>Rishika</strong> and <strong>Aniket</strong>, and Punjabi names like <strong>Harpreet</strong> and <strong>Simran</strong> each carry the flavor of their cultural origins.</p>
-          <h3 className="text-xl font-bold mt-8 mb-4">Modern Greek Names</h3>
-          <p>Today&apos;s Greek parents often choose names that work well internationally while retaining cultural meaning. Names like <strong>Kiran</strong> (ray of light), <strong>Maya</strong> (illusion/love), <strong>Arya</strong> (noble), <strong>Vivaan</strong> (full of life), and <strong>Zara</strong> (princess) bridge cultures beautifully.</p>
+          <h2 className="text-3xl font-bold mb-6">Timeless Names from Ancient Greece</h2>
+          <p>Greek names are the foundation of Western naming traditions. From Alexander the Great to modern-day Sophia, Greek names have shaped how the world names its children. These names carry the weight of mythology, philosophy, democracy, and art — the very pillars of Western civilization.</p>
+          <h3 className="text-xl font-bold mt-8 mb-4">Mythology Names</h3>
+          <p>Greek mythology provides some of the most powerful names in any language. <strong>Athena</strong> — goddess of wisdom and war strategy — represents intelligence and strength. <strong>Apollo</strong> — god of light, music, and healing — embodies creativity and brilliance. <strong>Artemis</strong> (goddess of the hunt), <strong>Penelope</strong> (Odysseus&apos;s faithful wife), and <strong>Helena</strong> (whose beauty launched a thousand ships) offer rich stories for every name.</p>
+          <h3 className="text-xl font-bold mt-8 mb-4">Classical Greek Names</h3>
+          <p><strong>Alexander</strong> (&quot;defender of the people&quot;) has been borne by kings, generals, and leaders throughout history. <strong>Sophia</strong> (&quot;wisdom&quot;) consistently ranks among the world&apos;s most popular names. <strong>Theodore</strong> (&quot;gift of God&quot;), <strong>Nicholas</strong> (&quot;victory of the people&quot;), <strong>Catherine</strong> (&quot;pure&quot;), and <strong>Philip</strong> (&quot;lover of horses&quot;) are timeless choices.</p>
+          <h3 className="text-xl font-bold mt-8 mb-4">Modern Greek Favorites</h3>
+          <p>In contemporary Greece, names like <strong>Dimitris</strong>, <strong>Nikos</strong>, <strong>Giorgos</strong>, <strong>Maria</strong>, <strong>Eleni</strong>, and <strong>Anna</strong> are everyday favorites. The tradition of naming children after grandparents keeps ancient names alive — you&apos;ll still meet young children named <strong>Konstantinos</strong>, <strong>Evangelia</strong>, and <strong>Anastasia</strong> (&quot;resurrection&quot;) throughout Greece.</p>
+          <h3 className="text-xl font-bold mt-8 mb-4">Philosophy-Inspired Names</h3>
+          <p>For parents who value wisdom and learning, philosophical names offer distinguished choices. While <strong>Aristotle</strong>, <strong>Plato</strong>, and <strong>Socrates</strong> are bold choices, names like <strong>Thalia</strong> (&quot;to flourish&quot;), <strong>Sophia</strong> (&quot;wisdom&quot;), <strong>Zeno</strong> (&quot;gift of Zeus&quot;), and <strong>Daphne</strong> (&quot;laurel tree&quot;) carry intellectual elegance without being heavy.</p>
         </div>
       </section>
 
@@ -75,14 +75,7 @@ export default function GreekNames() {
       <footer className="bg-gray-900 text-gray-400 py-8 px-4 text-center text-sm">
         <p>© 2026 BabyNamePick.com — Free AI Baby Name Generator</p>
         <div className="mt-3 flex justify-center gap-4 flex-wrap">
-          <a href="/" className="hover:text-white">Home</a>
-          <a href="/boy-names" className="hover:text-white">Boy Names</a>
-          <a href="/girl-names" className="hover:text-white">Girl Names</a>
-          <a href="/unique-names" className="hover:text-white">Unique Names</a>
-          <a href="/biblical-names" className="hover:text-white">Biblical</a>
-          <a href="/japanese-names" className="hover:text-white">Japanese</a>
-          <a href="/korean-names" className="hover:text-white">Korean</a>
-          <a href="/greek-names" className="hover:text-white">Greek</a>
+          <a href="/" className="hover:text-white">Home</a><a href="/boy-names" className="hover:text-white">Boy Names</a><a href="/girl-names" className="hover:text-white">Girl Names</a><a href="/unique-names" className="hover:text-white">Unique Names</a><a href="/biblical-names" className="hover:text-white">Biblical</a><a href="/japanese-names" className="hover:text-white">Japanese</a><a href="/korean-names" className="hover:text-white">Korean</a><a href="/indian-names" className="hover:text-white">Indian</a><a href="/chinese-names" className="hover:text-white">Chinese</a><a href="/arabic-names" className="hover:text-white">Arabic</a><a href="/spanish-names" className="hover:text-white">Spanish</a><a href="/african-names" className="hover:text-white">African</a><a href="/celtic-names" className="hover:text-white">Celtic</a><a href="/hawaiian-names" className="hover:text-white">Hawaiian</a><a href="/greek-names" className="hover:text-white">Greek</a><a href="/royal-names" className="hover:text-white">Royal</a>
         </div>
       </footer>
 
