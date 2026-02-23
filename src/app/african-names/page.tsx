@@ -2,8 +2,8 @@ import NameGenerator from "@/components/NameGenerator";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "African Baby Names Generator - Yoruba, Swahili African Baby Names Generator - Sanskrit, Hindi & Regional Names Akan Names | BabyNamePick",
-  description: "Discover beautiful African baby names from Yoruba, Swahili, Akan, and Zulu traditions with deep cultural meanings.
+  title: "African Baby Names Generator - Yoruba, Swahili & Akan Names | BabyNamePick",
+  description: "Discover beautiful African baby names from Yoruba, Swahili, Akan, and Zulu traditions with deep cultural meanings and naming ceremonies.",
   alternates: { canonical: "https://babynamepick.com/african-names" },
 };
 

@@ -2,8 +2,8 @@ import NameGenerator from "@/components/NameGenerator";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Greek Baby Names Generator - Mythology Greek Baby Names Generator - Sanskrit, Hindi & Regional Names Classical Names | BabyNamePick",
-  description: "Discover powerful Greek baby names from ancient mythology and classical traditions with timeless meanings.
+  title: "Greek Baby Names Generator - Mythology & Classical Names | BabyNamePick",
+  description: "Discover powerful Greek baby names from ancient mythology and classical traditions with timeless meanings and heroic origins.",
   alternates: { canonical: "https://babynamepick.com/greek-names" },
 };
 

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Hawaiian Baby Names Generator - Beautiful Island Names | BabyNamePick",
-  description: "Discover beautiful Hawaiian baby names inspired by nature, ocean, and aloha spirit with deep Polynesian meanings.
+  description: "Discover beautiful Hawaiian baby names inspired by nature, ocean, and aloha spirit with deep Polynesian meanings and traditions.",
   alternates: { canonical: "https://babynamepick.com/hawaiian-names" },
 };
 

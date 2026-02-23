@@ -2,8 +2,8 @@ import NameGenerator from "@/components/NameGenerator";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Celtic Baby Names Generator - Irish, Scottish Celtic Baby Names Generator - Sanskrit, Hindi & Regional Names Welsh Names | BabyNamePick",
-  description: "Discover enchanting Celtic baby names from Irish, Scottish, and Welsh traditions with mystical meanings.
+  title: "Celtic Baby Names Generator - Irish, Scottish & Welsh Names | BabyNamePick",
+  description: "Discover enchanting Celtic baby names from Irish, Scottish, and Welsh traditions with mystical meanings and Gaelic origins.",
   alternates: { canonical: "https://babynamepick.com/celtic-names" },
 };
 
