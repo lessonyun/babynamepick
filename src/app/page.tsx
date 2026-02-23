@@ -48,11 +48,13 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2">
             <span className="text-2xl">👶</span>
-            <span className="text-xl font-bold gradient-text">BabyNamePick</span>
+            <span className="text-xl font-bold" style={{background:"linear-gradient(135deg,#9333ea,#6366f1)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>BabyNamePick</span>
           </a>
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
-            <a href="#generator" className="hover:text-purple-600 transition-colors">Name Generator</a>
-            <a href="#styles" className="hover:text-purple-600 transition-colors">Browse Names</a>
+            <a href="/" className="text-purple-600 font-bold">Home</a>
+            <a href="/boy-names" className="hover:text-purple-600 transition-colors">Boy Names</a>
+            <a href="/girl-names" className="hover:text-purple-600 transition-colors">Girl Names</a>
+            <a href="/unique-names" className="hover:text-purple-600 transition-colors">Unique Names</a>
             <a href="#tips" className="hover:text-purple-600 transition-colors">Naming Tips</a>
             <a href="#faq" className="hover:text-purple-600 transition-colors">FAQ</a>
           </nav>
@@ -293,6 +295,35 @@ export default function Home() {
               name: f.q,
               acceptedAnswer: { "@type": "Answer", text: f.a },
             })),
+          }),
+        }}
+      />
+
+      {/* WebApplication Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            name: "BabyNamePick",
+            url: "https://babynamepick.com",
+            description: "Free AI-powered baby name generator. Discover unique, meaningful names with origins and meanings for boys, girls, and gender-neutral options.",
+            applicationCategory: "LifestyleApplication",
+            operatingSystem: "Web",
+            browserRequirements: "Requires JavaScript",
+            offers: {
+              "@type": "Offer",
+              price: "0",
+              priceCurrency: "USD",
+            },
+            featureList: [
+              "AI-powered baby name suggestions",
+              "Filter by gender, origin, and style",
+              "Name meanings and origins",
+              "Popularity ratings",
+              "20+ cultural origins supported",
+            ],
           }),
         }}
       />
